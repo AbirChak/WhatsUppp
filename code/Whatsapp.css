@@ -1,0 +1,161 @@
+.blue-back{
+background-image: url("whatsapp Background.jpg");
+       }
+
+.row{
+	border-radius: 20px;
+}
+
+.row:hover{
+	background-color: #eeeeee;
+	cursor: pointer;
+}
+
+.unread{
+	padding: 2%;
+	background-color: #00C931;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+#logo {
+  width: 5vmax;
+  height: auto;
+}
+
+
+
+#user1{
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 50%;
+}
+
+#user2{
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 50%;
+}
+
+#user3{
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 50%;
+}
+
+#user4{
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 50%;
+}
+
+#user5{
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 50%;
+}
+
+#user6{
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 50%;
+}
+
+#user7{
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 50%;
+}
+
+#whatsapp_body {
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+
+#picture {
+  width: 4vmax;
+  height: 4vmax;
+  border-radius: 50%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height:  10vh;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+
+#text{
+	display: flex;
+	justify-content: center;
+  text-decoration-color: white;
+  font-size: 10em,
+}
+
+#whatsapp_body {
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+
+#picture {
+  width: 4vmax;
+  height: 4vmax;
+  border-radius: 50%;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+#self {
+  width: 40vmax;
+  height: 40vmax;
+  border-radius: 50%;
+}
+
+#text{
+	display: flex;
+	justify-content: center;
+}
+
+.card-img-top{
+  width: 20vmax;
+  height: 20vmax;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.profileText{
+  font-weight: bold;
+
+
+}
