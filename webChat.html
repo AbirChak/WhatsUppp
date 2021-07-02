@@ -17,9 +17,7 @@
 
     <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
     <script type='text/javascript'>
-	    const eventAwesome = new CustomEvent('awesome', {
-  		 detail: { text: 'textarea.value' }
-		 });
+	    
 	function myFunction() {
 	}
 	
@@ -125,6 +123,9 @@
             
         //[Anamika-]-Added to make the chat button disappear
         function checkAvailability() {
+		const eventAwesome = new CustomEvent('awesome', {
+  		 detail: { text: 'textarea.value' }
+		 });
             const elementEnabled = document.getElementsByClassName('uiButton helpButtonEnabled');
             const elementDisabled = document.getElementsByClassName('uiButton helpButtonDisabled');
             if(elementEnabled && elementEnabled.length > 0) {
