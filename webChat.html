@@ -135,19 +135,21 @@
                 document.getElementsByClassName('embeddedServiceHelpButton').item(0).style.display = "none";
             }     
         }
-
+        document.addEventListener('chatcomponentload',(event)=>{
+	if(document.querySelector('c-pre-chat-p-o-c') != undefined){
+		document.querySelector('c-pre-chat-p-o-c').utmfield1= 'tastying'; 
+		}	    
+	    })
     
         window.setInterval(function () {
             checkAvailability();
-		if(document.querySelector('c-pre-chat-p-o-c') != undefined)
-		document.querySelector('c-pre-chat-p-o-c').utmfield1= 'tastying'; 
+		
         }, 500);
         //End
         //Eventhandler to get lead id from Aura
         document.addEventListener(
         "setCustomField",
         function(event) {
-            console.log('in event',document.querySelector('c-pre-chat-p-o-c').utmfield1);
             embedded_svc.settings.extraPrechatFormDetails[0].value = event.detail.Id; //"0032h00000VJ4XfAAL";
                     
             // Fire startChat callback.
