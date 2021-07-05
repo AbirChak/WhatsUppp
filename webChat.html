@@ -10,10 +10,33 @@
         .embeddedServiceHelpButton .helpButton .uiButton {
         background-color: #00FF00;
         font-family: "Arial", sans-serif;
+	height: 100%;
+ 	display: flex;
+	flex-wrap: wrap;
+	border-radius: 8px 0px 0px 8px;
         }
         .embeddedServiceHelpButton .helpButton .uiButton:focus {
         outline: 1px solid #005290;
         }
+		
+	.embeddedServiceHelpButton .helpButton{
+	position: fixed;
+    	bottom: 230px;
+    	right: 0;
+    	height: 200px;
+	}
+	.embeddedServiceHelpButton .helpButton .uiButton .embeddedServiceIcon{
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 10px;
+	}
+	.embeddedServiceHelpButton .helpButton .uiButton .helpButtonLabel .message{
+	overflow: hidden;
+    	white-space: nowrap;
+    	text-overflow: ellipsis;
+    	writing-mode: vertical-rl;
+    	text-orientation: upright;
+	}
     </style>
 
     <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
