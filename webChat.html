@@ -145,7 +145,13 @@
         }
         document.addEventListener('chatcomponentload',(event)=>{
 	if(document.querySelector('c-pre-chat-p-o-c') != undefined){
-		document.querySelector('c-pre-chat-p-o-c').utmfield1= 'tastying'; 
+		    document.querySelector('c-pre-chat-p-o-c').campaign= 'Campaign'; 
+		    document.querySelector('c-pre-chat-p-o-c').source= 'Source';
+		    document.querySelector('c-pre-chat-p-o-c').medium= 'Medium';
+		    document.querySelector('c-pre-chat-p-o-c').content= 'Content';
+		    document.querySelector('c-pre-chat-p-o-c').term= 'Term';
+		    document.querySelector('c-pre-chat-p-o-c').originalFormSource= 'Original_Form_Source';
+		    document.querySelector('c-pre-chat-p-o-c').googleID= 'Google_ID__c';
 		}	    
 	    })
     
